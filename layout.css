@@ -1,5 +1,5 @@
 .frame {
     width: 960px;
-    align-self: center;
+    margin: 0 auto;
     background-color: red;
 }
