@@ -1,11 +1,10 @@
 body {
-  background-color: #eee;
+  background-color: #555;
 }
 
 .frame {
   width: 960px;
-   margin: 0 auto;
-  background-color: lightblue;
+  margin: 0 auto;
   font-family: sans-serif;
 }
 
@@ -14,7 +13,6 @@ body {
   min-height: 180px;
   display: block;
   margin: auto;
-  background-color: black;
 }
 
 .tab {
@@ -22,8 +20,8 @@ body {
 }
 
 .tab label {
+  color: #eee;
   cursor: pointer;
-  background: gray;
   font-size: 1.2em;
   border-radius: 5px 5px 0 0;
   padding: .5em 1em;
@@ -39,7 +37,7 @@ body {
 }
 
 .content {
-  background: wheat;
+  background: #ccc;
   border: 1px solid cyan;
   border-radius: 0 5px 5px;
   padding: .5em 2em;
@@ -53,10 +51,16 @@ body {
 
 [type=radio]:checked ~ label {
   z-index: 2;
-  background: lightgray;
+  background: #666;
 }
 
 [type=radio]:checked ~ label ~ .content {
   z-index: 1;
   opacity: 1;
+}
+
+.top {
+  color: white;
+  float: right;
+  padding-right: 10px;
 }
