@@ -1,5 +1,5 @@
 body {
-  background-color: #555;
+  background-color: #123456;
 }
 
 .frame {
@@ -10,7 +10,7 @@ body {
 
 .tabs {
   position: relative;
-  min-height: 180px;
+  min-height: 500px;
   display: block;
   margin: auto;
 }
@@ -27,6 +27,10 @@ body {
   padding: .5em 1em;
   margin: 10px;
 } 
+
+.tab label:hover {
+  background-color: #1b4d7e;
+}
 
 .tab [type=radio] {
   position: absolute;
@@ -51,7 +55,7 @@ body {
 
 [type=radio]:checked ~ label {
   z-index: 2;
-  background: #666;
+  background: #164069;
 }
 
 [type=radio]:checked ~ label ~ .content {
@@ -60,7 +64,14 @@ body {
 }
 
 .top {
-  color: white;
+  font-size: 1.2em;
+  color: #ddd;
   float: right;
   padding-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  font-style: italic;
+  color: #1b4d7e;
 }
